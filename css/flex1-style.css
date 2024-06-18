@@ -1,0 +1,83 @@
+/** @format */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.col {
+  width: 100%;
+}
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #fff;
+}
+.hero-text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+}
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+.row h2 {
+  text-align: center;
+}
+.colo {
+  padding: 3em 0;
+}
+.colo h2 {
+  color: #580303;
+}
+.row p {
+  text-align: center;
+}
+
+.hero-bottom {
+  background-color: #0f5966;
+  color: #fff;
+  padding: 3em 0;
+}
+.hero-bottom .container .row {
+  padding: 0%;
+}

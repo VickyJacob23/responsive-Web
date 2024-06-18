@@ -1,0 +1,90 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*,
+**::after,
+**::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.main {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.container {
+  max-width: 660px;
+  width: 80%;
+  margin: 0 auto;
+}
+.hero__1 {
+  background-color: #f3eed9;
+  padding: 100px 0;
+  text-align: center;
+  line-height: 1;
+}
+
+.hero__1 h1 {
+  font-size: 3.5rem;
+  margin-top: 0.1rem;
+  color: #824936;
+}
+.hero__1 p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #69483d;
+  font-family: "Roboto", sans-serif;
+}
+.hero__2 {
+  background-color: #f5f2f2;
+  padding: 100px 0;
+}
+
+.hero__2 h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  /*margin-bottom: 1rem;*/
+  color: #824936;
+}
+
+.hero__2 .two__layout {
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.88rem;
+  color: #222c2a;
+}
+
+.hero__3 {
+  background-color: #222c2a;
+  padding: 100px 0;
+}
+.container__content {
+  display: flex;
+  gap: 2.5rem;
+  color: #f3eed9;
+}
+.content-right {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.88rem;
+}
+.img {
+  width: 35%;
+}
+.img img {
+  width: 100%;
+}
+
+.hero__4 {
+  background-color: #824936;
+  padding: 100px 0;
+}
